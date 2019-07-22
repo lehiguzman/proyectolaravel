@@ -23,7 +23,8 @@ mix.styles(['resources/plantilla/css/font-awesome.min.css',
 		  'resources/plantilla/js/bootstrap.min.js',
 		  'resources/plantilla/js/Chart.min.js',
 		  'resources/plantilla/js/pace.min.js',		  
-		  'resources/plantilla/js/template.js'
+		  'resources/plantilla/js/template.js',
+		  'resources/plantilla/js/sweetalert2.all.min.js' 
 		  ],'public/js/plantilla.js')
 .js(['resources/js/app.js'], 'public/js/app.js');
 
