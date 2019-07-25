@@ -17,4 +17,14 @@ class Categoria extends Model
     protected $fillable = [
         'nombre', 'descripcion', 'condicion'
     ];
+
+   /**
+    * Categoria has many Productos.
+    *
+    * @return \Illuminate\Database\Eloquent\Relations\HasMany
+    */
+   public function productos()
+   {      
+       return $this->hasMany("App\Producto");
+   }
 }
